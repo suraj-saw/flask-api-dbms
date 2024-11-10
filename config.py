@@ -3,3 +3,4 @@ class Config:
     MYSQL_USER = 'root'
     MYSQL_PASSWORD = 'Suraj03saw@'
     MYSQL_DB = 'project'
+    MYSQL_PORT = 3306
