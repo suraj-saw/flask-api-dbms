@@ -13,6 +13,11 @@ CORS(app)
 # Initialize MySQL
 mysql = MySQL(app)
 
+# Define a route for the root URL (index route)
+@app.route('/')
+def index():
+    return jsonify({"message": "Flask API is running"})
+
 # Define an API route to fetch the list of PDFs by year
 @app.route('/get_pdfs/<year>', methods=['GET'])
 def get_pdfs(year):
