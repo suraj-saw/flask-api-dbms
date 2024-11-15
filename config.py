@@ -4,5 +4,5 @@ class Config:
     MYSQL_PASSWORD = 'mftQC3a5MSZUTI'
     MYSQL_DB = 'if0_37717402_project'
     MYSQL_PORT = 3306
-    # MYSQL_SSL_DISABLED = True  # Disable SSL
+    MYSQL_SSL_DISABLED = True  # Disable SSL
     # MYSQL_SSL_CA = ''  # Empty CA to ensure no SSL is used
