@@ -1,5 +1,5 @@
 class Config:
-    MYSQL_HOST = '	sql301.infinityfree.com'
+    MYSQL_HOST = 'sql301.infinityfree.com'
     MYSQL_USER = 'if0_37717402'
     MYSQL_PASSWORD = 'mftQC3a5MSZUTI'
     MYSQL_DB = 'if0_37717402_project'
